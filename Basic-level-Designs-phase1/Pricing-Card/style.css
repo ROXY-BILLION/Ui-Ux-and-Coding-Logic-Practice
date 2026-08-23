@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    background-color: aqua;
+}
+.pricing-card{
+    width: 30vw;
+    height: 50vh;
+    background-color: rgb(7, 36, 36);
+    color: white;
+    cursor: pointer;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.btn{
+    padding: 0.4rem;
+    background-color: aqua;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(20, 54, 54);
+}
+.fa-star{
+    color: orange;
+    font-size: 20px;
+}
+.features{
+    list-style: none;
+}
+.fa-circle-check{
+    color: rgb(47, 47, 207);
+    font-size: 20px;
+}
+.fa-shield-halved{
+    color: red;
+    font-size: 20px;
+}
