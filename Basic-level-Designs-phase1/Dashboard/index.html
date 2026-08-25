@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Analytics Dashboard</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- DASHBOARD CONTAINER -->
+  <main class="dashboard">
+
+    <!-- LEFT COLUMN -->
+    <section class="dashboard-column">
+
+      <!-- Total Users -->
+      <div class="card total-users-card">
+
+        <div class="card-header">
+          <span>Total Users</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+        <div class="stat-content">
+
+          <div>
+            <h2>178,080</h2>
+
+            <p class="increase">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              +3.49%
+            </p>
+          </div>
+
+          <div class="round-icon green">
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Profile Card -->
+      <div class="card profile-card">
+
+        <div class="profile-cover">
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80"
+            alt="Profile"
+          >
+        </div>
+
+        <div class="profile-image">
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80"
+            alt="Nanna"
+          >
+        </div>
+
+        <div class="profile-info">
+
+          <h3>Nanna Kristensen</h3>
+
+          <p>Copenhagen, Denmark</p>
+
+          <div class="profile-actions">
+
+            <button class="follow-btn">
+              Following
+              <i class="fa-solid fa-check"></i>
+            </button>
+
+            <button class="message-btn">
+              <i class="fa-solid fa-comment"></i>
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- New Users -->
+      <div class="card new-users-card">
+
+        <div class="card-header">
+          <span>New Users</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="user-item">
+
+          <img
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80"
+            alt="User"
+          >
+
+          <div class="user-details">
+            <h4>Mille Knudsen</h4>
+            <p>Product Designer</p>
+          </div>
+
+          <button class="add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+
+        </div>
+
+
+        <div class="user-item">
+
+          <img
+            src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=100&q=80"
+            alt="User"
+          >
+
+          <div class="user-details">
+            <h4>Mille Knudsen</h4>
+            <p>Product Designer</p>
+          </div>
+
+          <button class="add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+
+        </div>
+
+
+        <div class="user-item">
+
+          <img
+            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80"
+            alt="User"
+          >
+
+          <div class="user-details">
+            <h4>Mille Knudsen</h4>
+            <p>Product Designer</p>
+          </div>
+
+          <button class="add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MIDDLE COLUMN -->
+    <section class="dashboard-column">
+
+      <!-- My Goals -->
+      <div class="card goals-card">
+
+        <div class="card-header">
+          <span>My Goals</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="goal">
+
+          <div class="goal-top">
+            <span>42 Projects</span>
+            <span>56%</span>
+          </div>
+
+          <div class="progress">
+            <span class="progress-blue"></span>
+          </div>
+
+        </div>
+
+
+        <div class="goal">
+
+          <div class="goal-top">
+            <span>$ 239.27 Earned</span>
+            <span>12%</span>
+          </div>
+
+          <div class="progress">
+            <span class="progress-orange"></span>
+          </div>
+
+        </div>
+
+
+        <div class="goal">
+
+          <div class="goal-top">
+            <span>12 Members</span>
+            <span>92%</span>
+          </div>
+
+          <div class="progress">
+            <span class="progress-green"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Notifications -->
+      <div class="card notifications-card">
+
+        <div class="card-header">
+          <span>Notifications</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="notification">
+
+          <div class="notification-icon green-bg">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+
+          <div>
+            <h4>Nanna liked your photo</h4>
+            <p>12 min ago</p>
+          </div>
+
+        </div>
+
+
+        <div class="notification">
+
+          <div class="notification-icon purple-bg">
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+
+          <div>
+            <h4>Your message to Joe was sent</h4>
+            <p>39 min ago</p>
+          </div>
+
+        </div>
+
+
+        <div class="notification">
+
+          <div class="notification-icon yellow-bg">
+            <i class="fa-solid fa-user-plus"></i>
+          </div>
+
+          <div>
+            <h4>You have new friend suggestion</h4>
+            <p>2 hours ago</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Revenue -->
+      <div class="card revenue-card">
+
+        <div class="card-header">
+          <span>Revenue</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="revenue-value">
+          <h2>$ 84.952</h2>
+
+          <span>
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            +0.19%
+          </span>
+        </div>
+
+
+        <div class="chart">
+
+          <svg viewBox="0 0 400 120">
+
+            <polyline
+              points="0,95 70,75 140,85 210,65 280,90 350,40 400,20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            />
+
+          </svg>
+
+        </div>
+
+
+        <div class="chart-footer">
+          <span>Direct visits</span>
+          <span>32.72%</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- RIGHT COLUMN -->
+    <section class="dashboard-column">
+
+      <!-- Website Traffic -->
+      <div class="card traffic-card">
+
+        <div class="card-header">
+          <span>Website Traffic</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="traffic-value">
+
+          <h2>392,912</h2>
+
+          <span class="decrease">
+            <i class="fa-solid fa-arrow-trend-down"></i>
+            -0.42%
+          </span>
+
+        </div>
+
+
+        <!-- Traffic Bar -->
+        <div class="traffic-bar">
+
+          <span class="direct"></span>
+          <span class="organic"></span>
+          <span class="referral"></span>
+          <span class="social"></span>
+
+        </div>
+
+
+        <div class="traffic-list">
+
+          <div>
+            <span>
+              <i class="fa-solid fa-circle"></i>
+              Direct visits
+            </span>
+            <b>32.72%</b>
+          </div>
+
+          <div>
+            <span>
+              <i class="fa-solid fa-circle"></i>
+              Organic Search
+            </span>
+            <b>21.28%</b>
+          </div>
+
+          <div>
+            <span>
+              <i class="fa-solid fa-circle"></i>
+              Referrals websites
+            </span>
+            <b>13.94%</b>
+          </div>
+
+          <div>
+            <span>
+              <i class="fa-solid fa-circle"></i>
+              Social Networks
+            </span>
+            <b>9.76%</b>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Total Users Comparison -->
+      <div class="card comparison-card">
+
+        <div class="card-header">
+          <span>Total Users</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="comparison">
+
+          <div class="comparison-item">
+
+            <div class="round-icon green">
+              <i class="fa-solid fa-user"></i>
+            </div>
+
+            <span class="increase">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              +3.49%
+            </span>
+
+            <h2>178,080</h2>
+
+          </div>
+
+
+          <div class="comparison-item">
+
+            <div class="round-icon purple">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <span class="decrease">
+              <i class="fa-solid fa-arrow-trend-down"></i>
+              -0.42%
+            </span>
+
+            <h2>178,080</h2>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Notification Settings -->
+      <div class="card settings-card">
+
+        <div class="card-header">
+          <span>Notifications Settings</span>
+
+          <button class="more-btn">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+        </div>
+
+
+        <div class="setting">
+
+          <div>
+            <h4>Activity</h4>
+            <p>Notifications about activity</p>
+          </div>
+
+          <label class="switch">
+            <input type="checkbox">
+            <span></span>
+          </label>
+
+        </div>
+
+
+        <div class="setting">
+
+          <div>
+            <h4>On This Day</h4>
+            <p>About memories to look back on</p>
+          </div>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span></span>
+          </label>
+
+        </div>
+
+
+        <div class="setting">
+
+          <div>
+            <h4>Birthdays</h4>
+            <p>Your friends' birthdays</p>
+          </div>
+
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span></span>
+          </label>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
