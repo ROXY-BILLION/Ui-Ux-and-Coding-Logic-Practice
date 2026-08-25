@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NexaBoard Dashboard</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!--DASHBOARD WRAPPER -->
+
+  <main class="dashboard">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+      <!-- Logo -->
+      <div class="logo-area">
+
+        <div class="logo-icon">
+          N
+        </div>
+
+        <h2>NexaBoard</h2>
+
+      </div>
+
+
+      <!-- Navigation -->
+      <nav class="navigation">
+
+
+        <!-- MAIN -->
+        <div class="nav-section">
+
+          <p class="section-title">
+            MAIN
+          </p>
+
+
+          <a href="#" class="nav-link active">
+
+            <i class="fa-solid fa-chart-column"></i>
+
+            <span>Dashboard</span>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            <span>Analytics</span>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-user-group"></i>
+
+            <span>Customers</span>
+
+            <b class="nav-badge purple">
+              12
+            </b>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-box"></i>
+
+            <span>Products</span>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <span>Orders</span>
+
+            <b class="nav-badge blue">
+              8
+            </b>
+
+          </a>
+
+        </div>
+
+
+        <!-- FINANCE -->
+        <div class="nav-section">
+
+          <p class="section-title">
+            FINANCE
+          </p>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-sack-dollar"></i>
+
+            <span>Revenue</span>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-file-invoice"></i>
+
+            <span>Invoices</span>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-credit-card"></i>
+
+            <span>Payments</span>
+
+          </a>
+
+        </div>
+
+
+        <!-- SETTINGS -->
+        <div class="nav-section">
+
+          <p class="section-title">
+            SETTINGS
+          </p>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-gear"></i>
+
+            <span>Settings</span>
+
+          </a>
+
+
+          <a href="#" class="nav-link">
+
+            <i class="fa-solid fa-bell"></i>
+
+            <span>Notifications</span>
+
+          </a>
+
+        </div>
+
+      </nav>
+
+
+      <!-- Sidebar User -->
+      <div class="sidebar-user">
+
+        <div class="user-avatar">
+          AM
+        </div>
+
+        <div class="user-info">
+
+          <h4>Ahmad Musa</h4>
+
+          <p>Admin</p>
+
+        </div>
+
+      </div>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <section class="main-content">
+
+
+      <!-- TOP HEADER -->
+
+      <header class="top-header">
+
+        <div class="page-title">
+
+          <h1>Dashboard</h1>
+
+          <span>Home / Dashboard</span>
+
+        </div>
+
+
+        <div class="header-actions">
+
+          <button class="header-btn notification-btn">
+
+            <i class="fa-solid fa-bell"></i>
+
+          </button>
+
+
+          <button class="header-btn">
+
+            <i class="fa-solid fa-sun"></i>
+
+          </button>
+
+
+          <div class="header-avatar">
+            AM
+          </div>
+
+        </div>
+
+      </header>
+
+
+
+      <!-- DASHBOARD BODY -->
+
+      <div class="content">
+
+
+        <!-- STATISTICS -->
+
+        <section class="stats">
+
+
+          <!-- Revenue -->
+          <div class="stat-card">
+
+            <div class="stat-top">
+
+              <div class="stat-icon yellow">
+                <i class="fa-solid fa-sack-dollar"></i>
+              </div>
+
+              <span class="growth positive">
+                ↑ 12.4%
+              </span>
+
+            </div>
+
+            <h2>$84,291</h2>
+
+            <p>Total Revenue</p>
+
+          </div>
+
+
+          <!-- Users -->
+          <div class="stat-card">
+
+            <div class="stat-top">
+
+              <div class="stat-icon blue">
+                <i class="fa-solid fa-user-group"></i>
+              </div>
+
+              <span class="growth positive">
+                ↑ 8.1%
+              </span>
+
+            </div>
+
+            <h2>12,847</h2>
+
+            <p>Active Users</p>
+
+          </div>
+
+
+          <!-- Orders -->
+          <div class="stat-card">
+
+            <div class="stat-top">
+
+              <div class="stat-icon gray">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+
+              <span class="growth negative">
+                ↓ 3.2%
+              </span>
+
+            </div>
+
+            <h2>1,428</h2>
+
+            <p>Orders This Month</p>
+
+          </div>
+
+
+          <!-- Satisfaction -->
+          <div class="stat-card">
+
+            <div class="stat-top">
+
+              <div class="stat-icon gold">
+                <i class="fa-solid fa-star"></i>
+              </div>
+
+              <span class="growth positive">
+                ↑ 2.1%
+              </span>
+
+            </div>
+
+            <h2>94.7%</h2>
+
+            <p>Customer Satisfaction</p>
+
+          </div>
+
+        </section>
+
+
+
+        <!-- CHARTS SECTION -->
+
+        <section class="charts">
+
+
+          <!-- MONTHLY REVENUE -->
+
+          <div class="panel revenue-panel">
+
+            <div class="panel-header">
+
+              <div>
+
+                <h3>Monthly Revenue</h3>
+
+                <p>Last 7 months performance</p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Bar Chart -->
+            <div class="bar-chart">
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 48%;">
+                  </div>
+
+                </div>
+
+                <span>Aug</span>
+
+              </div>
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 70%;">
+                  </div>
+
+                </div>
+
+                <span>Sep</span>
+
+              </div>
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 43%;">
+                  </div>
+
+                </div>
+
+                <span>Oct</span>
+
+              </div>
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 78%;">
+                  </div>
+
+                </div>
+
+                <span>Nov</span>
+
+              </div>
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 52%;">
+                  </div>
+
+                </div>
+
+                <span>Dec</span>
+
+              </div>
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 55%;">
+                  </div>
+
+                </div>
+
+                <span>Jan</span>
+
+              </div>
+
+
+              <div class="bar-item">
+
+                <div class="bar-track">
+
+                  <div
+                    class="bar"
+                    style="height: 48%;">
+                  </div>
+
+                </div>
+
+                <span>Feb</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- TRAFFIC SOURCES -->
+
+          <div class="panel traffic-panel">
+
+            <div class="panel-header">
+
+              <div>
+
+                <h3>Traffic Sources</h3>
+
+                <p>Current month</p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Donut -->
+            <div class="donut-wrapper">
+
+              <div class="donut">
+
+                <div class="donut-center">
+
+                  <strong>12k</strong>
+
+                  <span>Visitors</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- Legend -->
+            <div class="traffic-legend">
+
+
+              <div class="legend-item">
+
+                <span>
+                  <i class="dot organic"></i>
+                  Organic
+                </span>
+
+                <b>45%</b>
+
+              </div>
+
+
+              <div class="legend-item">
+
+                <span>
+                  <i class="dot social"></i>
+                  Social
+                </span>
+
+                <b>25%</b>
+
+              </div>
+
+
+              <div class="legend-item">
+
+                <span>
+                  <i class="dot direct"></i>
+                  Direct
+                </span>
+
+                <b>20%</b>
+
+              </div>
+
+
+              <div class="legend-item">
+
+                <span>
+                  <i class="dot paid"></i>
+                  Paid
+                </span>
+
+                <b>10%</b>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <!-- RECENT ORDERS -->
+
+        <section class="panel orders-panel">
+
+
+          <div class="panel-header">
+
+            <div>
+
+              <h3>Recent Orders</h3>
+
+              <p>Latest 5 transactions</p>
+
+            </div>
+
+          </div>
+
+
+          <!-- Table wrapper -->
+          <div class="table-wrapper">
+
+            <table>
+
+              <thead>
+
+                <tr>
+
+                  <th>ORDER ID</th>
+                  <th>CUSTOMER</th>
+                  <th>PRODUCT</th>
+                  <th>AMOUNT</th>
+                  <th>STATUS</th>
+                  <th>DATE</th>
+
+                </tr>
+
+              </thead>
+
+
+              <tbody>
+
+
+                <tr>
+
+                  <td>#ORD-4821</td>
+
+                  <td>Alex Johnson</td>
+
+                  <td>Pro Plan</td>
+
+                  <td>$129</td>
+
+                  <td>
+                    <span class="status active">
+                      ● Active
+                    </span>
+                  </td>
+
+                  <td>Mar 9, 2026</td>
+
+                </tr>
+
+
+                <tr>
+
+                  <td>#ORD-4820</td>
+
+                  <td>Sarah Wilson</td>
+
+                  <td>Enterprise</td>
+
+                  <td>$499</td>
+
+                  <td>
+                    <span class="status active">
+                      ● Active
+                    </span>
+                  </td>
+
+                  <td>Mar 8, 2026</td>
+
+                </tr>
+
+
+                <tr>
+
+                  <td>#ORD-4819</td>
+
+                  <td>David Brown</td>
+
+                  <td>Basic Plan</td>
+
+                  <td>$49</td>
+
+                  <td>
+                    <span class="status pending">
+                      ● Pending
+                    </span>
+                  </td>
+
+                  <td>Mar 8, 2026</td>
+
+                </tr>
+
+
+                <tr>
+
+                  <td>#ORD-4818</td>
+
+                  <td>Emily Davis</td>
+
+                  <td>Pro Plan</td>
+
+                  <td>$129</td>
+
+                  <td>
+                    <span class="status active">
+                      ● Active
+                    </span>
+                  </td>
+
+                  <td>Mar 7, 2026</td>
+
+                </tr>
+
+
+                <tr>
+
+                  <td>#ORD-4817</td>
+
+                  <td>Michael Smith</td>
+
+                  <td>Basic Plan</td>
+
+                  <td>$49</td>
+
+                  <td>
+                    <span class="status cancelled">
+                      ● Cancelled
+                    </span>
+                  </td>
+
+                  <td>Mar 7, 2026</td>
+
+                </tr>
+
+
+              </tbody>
+
+            </table>
+
+          </div>
+
+        </section>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
